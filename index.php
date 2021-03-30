@@ -1,7 +1,4 @@
 <?php 
-/**
- * Template Name: Api
-**/
 /*
 $arr = array(
   
@@ -106,3 +103,4 @@ try {
 } catch (Exception $e) {
     echo $e->getMessage();
 }
+?>
