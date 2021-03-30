@@ -1,1 +1,1 @@
-# fatehgotra.github.iod
+# fatehgotra.github.io
