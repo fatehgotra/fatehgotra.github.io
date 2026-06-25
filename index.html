@@ -2,16 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/portfolio/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Fateh Gotra — Full Stack Developer. Building scalable web apps, CRM systems, SaaS platforms, and mobile applications." />
-    <meta name="theme-color" content="#070714" />
-    <title>Fateh Gotra | Full Stack Developer</title>
+    <script>
+      // Apply saved theme before paint to avoid a flash. Light is the default.
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta name="description" content="Fateh Gotra — Senior Full Stack Developer. Building scalable web apps, CRM systems, SaaS platforms, and mobile applications." />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Fateh Gotra | Senior Full Stack Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-CS-FMAQb.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DezJUo-4.css">
+    <script type="module" crossorigin src="/assets/index-BL1_qwmb.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Gb38fhRw.css">
   </head>
   <body>
     <div id="root"></div>
